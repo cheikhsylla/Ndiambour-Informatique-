@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ndiambour Informatique</title>
+    <!-- CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+</head>
+
+<body>
+    <div id="wholepage">
+        <div class="container-fluid current-page">
+            <div class="topnav">
+                <img src="./img/ee.png" alt="" class="logoa" width="900px" height="250px">
+
+                <a href="#news">SERVICES</a>
+                <a href="#news">INFOGRAPHIE</a>
+                <a href="#contact">FORMATION</a>
+                <a href="produit.html">PRODUIT</a>
+
+                <a class="active" href="index.html">ACCUEIL</a>
+            </div>
+            <!-- <div class="text-center"> <h1 class="text-menu"><strong style="color: white;">N</strong style="color: white;">diambour <strong style="color: white;">I</strong>nformatique <strong style="color: white;">P</strong>lus Structure de technologies</h1></div> -->
+            <div class="container">
+                <img src="./images/nip.png" alt="" class="homePhoto">
+            </div>
+            <!-- <div class="row" id="zone2">
+                <div class="col-sm-5">
+                    <p id="bordure"> <a style="font-weight: bold;">NIP</a> est un des précurseurs de la vulgarisation de l'outil informatique dans la région de Louga. Nous capitalisons plus de 20 ans d'expériences dans la formation et la mise en œuvre des technologies
+                        de l'information et de la communication en entreprise. <br>Véritable professionnelle de transfert de compétence, notre institut <a style="font-weight: bold;">Ndiambour Informatique Plus</a> à formé plus de 1000 personnes ,professionnels
+                        leurs permettant de mieux intégrer le monde professionnel d'aujourd'hui . De plus, depuis des années nous commercialisons du matériels et accessoires informatique dernier cri venant des Etats unis et à des prix très attractifs
+                        Par ailleurs, <a style="font-weight: bold;">Ndiambour Informatique Plus</a> propose la création et l'hébergement de votre site web en 10 jours. Pour répondre au mieux le besoin du marché, nous avons mis à votre disposition une
+                        agence de voyage ,assurance auto et un bureau d'étude de projet .<br>A <a style="font-weight: bold;"> Ndiambour Informatique Plus </a>, la satisfaction du client est notre crédo</p>
+                </div>
+                <div class="col-sm-1">
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="carousel" data-flickity='{ "wrapAround": "left", "autoPlay": 1500 }'>
+                        <div class="carousel-cell"> <img src="./img/l0.jpeg" alt="" class="image-menu"></div>
+
+                        <div class="carousel-cell"> <img src="./img/l1.jpeg" alt="" class="image-menu"></div>
+                        <div class="carousel-cell"><img src="./img/l2.jpeg" alt="" class="image-menu"></div>
+                        <div class="carousel-cell"><img src="./img/l3.jpeg" alt="" class="image-menu"></div>
+                        <div class="carousel-cell"><img src="./img/l4.jpeg" alt="" class="image-menu"></div>
+
+                    </div>
+                </div>
+
+            </div> -->
+            <br>
+            <br>
+            <br>
+            <div class="jumbotron message-produit">
+                <h1 class="mes_prod">Nous plaçons la satisfaction de nos clients au coeur de nos préoccupation.Vous avez un besoin ? Nous avons la solution</h1>
+            </div>
+            <!-- section acheter billets -->
+            <br>
+            <br>
+            <div class="container-fluid">
+                <p id="gr-titre"> ACHETER VOS BILLETS A NDIAMBOUR INFORMATIQUE PLUS</p>
+            </div>
+            <br>
+            <br>
+            <div class="container billets">
+				<br>
+                <form method="POST" action="mail.php">
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="prenom" placeholder="Prenom" name="a1">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="nom" placeholder="Nom" name="a2">
+                        </div>
+						<div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="dateDeNaissance" placeholder="Date de Naissance" name="a3" required>
+                        </div>
+                    </div>
+					<br>
+					<br>
+					<div class="row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="villeDepart" placeholder="Ville de départ" name="a4" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="villearrive" placeholder="Ville d'arrivé" required name="a5">
+                        </div>
+						<div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="dateDepart" placeholder="Date départ / arrivée" name="a6" required>
+                        </div>
+                    </div>
+					<br>
+					<br>
+					<div class="row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="numeropasseport" placeholder="Numéro de passeport" name="a7" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="paysDelivrance" placeholder="Pays de délivrance" name="a8" required>
+                        </div>
+						<div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="dateValidite" placeholder="Date de Validité" name="a9" required>
+                        </div>
+
+                    </div>
+                    <br>
+					<div class="text-center">
+						<button type="submit" class="reserver">Je reserve mon billet</button>
+
+					</div>
+
+                  </form>
+                  
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <p id="entete">VOYAGE ET ASSURANCE</p>
+                        <p id="liste_produit">Billet toute destination</p>
+                        <p id="liste_produit">Assurance Auto</p>
+                        <p id="liste_produit">Assurance Moto</p>
+                        <p id="liste_produit">Assurance Camion</p>
+                        <p id="liste_produit">++++</p>
+
+
+
+                    </div>
+                    <div class="col-sm" >
+                        <p id="entete">SERIGRAPHIE ET FLOCAGE</p>
+                        <p id="liste_produit">Tee-shirt</p>
+                        <p id="liste_produit">Drap</p>
+                        <p id="liste_produit">Blouse</p>
+                        <p id="liste_produit">Maillot et casquette</p>
+                        <p id="liste_produit">++++</p>
+                    </div>
+                    <div class="col-sm">
+                        <p id="entete">FORMATIONS</p>
+                        <p id="liste_produit">Gestion & comptablité</p>
+                        <p id="liste_produit">Bureautique (FR ou Ar)</p>
+                        <p id="liste_produit">Maintenance & réseau</p>
+                        <p id="liste_produit">Infographie</p>
+                        <p id="liste_produit">++++</p>
+                    </div>
+                    <div class="col-sm">
+                        <p id="entete">PRODUITS</p>
+                        <p id="liste_produit">Ordinateurs</p>
+                        <p id="liste_produit">Paneaux solaire</p>
+                        <p id="liste_produit">Caméra de surveillance</p>
+                        <p id="liste_produit">Vidéo projecteur</p>
+                        <p id="liste_produit">++++</p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <!-- gestion de projet -->
+
+            <p id="gr-titre"> LA GESTION DE PROJET <br>SELON NDIAMBOUR INFORMATIQUE PLUS</p>
+            <br>
+            <div class="container">
+                <p class="texte-g-prjt">Gérer un projet a pour but d’organiser de bout en bout son bon déroulement, quelle que soit sa nature. Planification dans le temps, définition des objectifs, gestion des ressources, répartition des tâches, chiffrage et bien sûr suivi de
+                    la bonne réalisation sont notamment au programme.<br> <br> <br> L’organisation des process autour du projet est le moyen le plus sûr d’engager les équipes et de le réussir. Elle fait appel à des techniques d'organisation pendant le
+                    cycle de vie de celui-ci dans l'unique but d'atteindre les objectifs fixés au départ.<br> <br> <br>A <strong>  Ndiambour Informatique  Plus</strong>, nous mettons à votre disposition des experts en
+                    la matière pour vous accompagner dans la réalisation de vos projets.
+                </p>
+
+            </div>
+            <br>
+            <div class="container">
+                <div class="row" id="ges-projet1">
+                    <div class="col-sm-5 g2">
+                        <p class="g3">Pourquoi Ndiambour Informatique?</p>
+                        <div id="trait_dessus1">
+                        </div>
+
+
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-5 g2">
+                        <p class="g3">Pour qui notre outil de gestion de projet?</p>
+                        <div id="trait_dessus2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- UNE EQUIPE PROFESSIONNEL POUR VOUS SERVIR  -->
+
+            <p id="gr-titre"> UNE EQUIPE PROFESIONNELLLE ENGAGEE POUR VOUS SERVIR</p>
+            <br>
+            <br>
+            <div class="container container-equipe">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="./img/thiaw.jpeg" alt="" class="photo_equipe" id="forme-photo-equipe">
+                        <div class="row">
+                            <span id="text-sous-photo">El hadji <strong>THIAW</strong> vice-président<br> responsable commerce extérieur /Itinérant</span>
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm">
+                        <img src="./img/aicha.jpeg" alt="" class="photo_equipe" id="forme-photo-equipe">
+                        <div class="row">
+                            <span id="text-sous-photo">Aicha <strong>DICKO</strong> 2em vice-président<br> responsable commerciale interne /sédentaire</span>
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm">
+                        <img src="./img/ndao.jpeg" alt="" class="photo_equipe" id="forme-photo-equipe">
+                        <div class="row">
+                            <span id="text-sous-photo">Mr Mamadou <strong>NDAO</strong> 3em vice-président<br> responsable de la formation,supérieur /suppléant</span>
+
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <img src="./img/moussa.jpeg" alt="" class="photo_equipe" id="forme-photo-equipe">
+                        <div class="row">
+                            <span id="text-sous-photo">Moussa <strong>DIARRA</strong> <br> technicien infographiste</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <br>
+            <br>
+            <p id="gr-titre"> ACHETER VOS BILLETS A NDIAMBOUR INFORMATIQUE PLUS</p>
+            <br>
+            <br>
+            <div class="container billets">
+				<br>
+                <form>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="prenom" placeholder="Prenom">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="nom" placeholder="Nom">
+                        </div>
+						<div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="dateDeNaissance" placeholder="Date de Naissance">
+                        </div>
+                    </div>
+					<br>
+					<br>
+					<div class="row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="villeDepart" placeholder="Ville de départ">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="villearrive" placeholder="Ville d'arrivé">
+                        </div>
+						<div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="dateDepart" placeholder="Date départ / arrivée">
+                        </div>
+                    </div>
+					<br>
+					<br>
+					<div class="row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="numeropasseport" placeholder="Numéro de passeport">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="paysDelivrance" placeholder="Pays de délivrance">
+                        </div>
+						<div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="dateValidite" placeholder="Date de Validité">
+                        </div>
+
+                    </div>
+                    <br>
+					<div class="text-center">
+						<button type="submit" class="bg-success" style="color: white;">Je reserve mon billet</button>
+
+					</div>
+
+                  </form>
+            </div> -->
+
+
+            <!-- ILS NOUS FONT CONFIANCE -->
+            <p id="gr-titre"> ILS NOUS FONT CONFIANCE</p>
+            <br>
+            <div class="container">
+                <div class="carousel" data-flickity='{ "wrapAround": "left", "autoPlay": 1500 }'>
+
+                    <div class="carousel-cell"> <img src="./img/louga.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/mt.jpeg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/plan.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/police.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/sante.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/seneau.png" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/Senelec_logo.png" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/zeina.jpeg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/./apd.jpeg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/asc.jpeg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/cepaim.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="./img/travel-etude.png" alt=""></div>
+                </div>
+            </div>
+            <br>
+            <!-- Témoignage -->
+            <br>
+
+            <p id="gr-titre"> TEMOIGNAGE</p>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 g1">
+                        <p>	<h5> Last update : 01/02/21, by Cheikh SYLLA  </h5>
+
+                        </p>
+                    </div>
+                    <div class="col-sm-1">
+
+                    </div>
+                    <div class="col-sm-3 g1">
+                        <p>	<h5> Last update : 01/02/21, by Cheikh SYLLA  </h5>
+                        </p>
+
+                    </div>
+                    <div class="col-sm-1">
+
+                    </div>
+                    <div class="col-sm-3 g1">
+                        <h5> Last update : 01/02/21, by Cheikh SYLLA  </h5>
+
+
+                    </div>
+                </div>
+            </div>
+                <br>
+                <br>
+                <br>
+
+            <!-- PIED DE PAGE  -->
+            <footer>
+                <div class="text-center">
+                                    <p> Ndiambour Informatique Plus structure de technologies 192 Avenue de la gare prés de la police de Louga - Senegal Tél : (00221) 33 967 00 14 Fax: (00221) 33 937 32 27</p> </div>
+                      <img src="./images/fcbk.png" alt="" width="40" height="20" > <a href="https://www.facebook.com/search/top?q=ndiaminf%20plus" style="color: white;"> visiter nous sur facebook</a>
+                      <img src="./images/ws.png" alt="" width="40" height="20"><p>(00221) 78 390 58 58</p>
+
+                
+                    <div>
+
+
+                    </div>
+                    
+            </footer>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+/* Add a black background color to the top navigation */
+
+.topnav {
+    /* background-color: burlywood; */
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: rgb(59, 13, 224);
+    color: white;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.text-menu{
+    font-size: 300%;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.current-page {
+    background-color: burlywood;
+    height:1000px;
+    width: 100%;
+}
+
+#zone2 {
+    position: relative;
+    margin: 180px 0 120px;
+}
+
+#bordure {
+    border-width: 3px;
+    border-style: groove;
+    border-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.image-menu {
+    width: 530px;
+    height: 300px;
+}
+
+.message-produit {
+    background-color:blue;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.mes_prod {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 160%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#entete {
+    font-size: 150%;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+    color: goldenrod
+}
+
+#liste_produit {
+    text-align: center;
+    font-size: 140%;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#gr-titre {
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 400%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+.g2 {
+    text-align: center;
+    background-color: white;
+}
+
+.g3 {
+    color: rgb(47, 222, 235);
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.texte-g-prjt {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 140%;
+}
+
+#trait_dessus1 {
+    border-top: 4px solid green;
+    width: 250px;
+    position: relative;
+    left: 160px;
+}
+
+#trait_dessus2 {
+    border-top: 4px solid red;
+    width: 250px;
+    position: relative;
+    left: 160px;
+}
+
+body {
+    background-color: rgb(241, 237, 237);
+}
+
+
+/* UNE EQUIPE PROFESSIONNEL POUR VOUS SERVIR  */
+
+.photo_equipe {
+    width: 200px;
+    height: 200px;
+}
+
+#text-sous-photo {
+    position: relative;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    color: blue;
+}
+
+#forme-photo-equipe {
+    border-radius: 50%;
+    padding: 5px;
+    border: 5px solid transparent;
+    background: linear-gradient(60deg, rgb(226, 133, 10), rgb(26, 234, 241));
+}
+
+.container-equipe {
+    text-align: center;
+}
+
+.carousel-cell {
+    display: block;
+}
+
+
+/* TEMOIGNAGE */
+
+.g1 {
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(236, 138, 9);
+    color: #fff;
+    width: 100%;
+}
+
+#wholepage {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/* Billet */
+.billets{
+    background-color: cyan;
+}
+
+.reserver{
+    color: white;
+    background-color: green;
+    font-weight: bold;
+}
+
+.homePhoto{
+    
+	width: 100%;
+}

@@ -45,7 +45,7 @@
 
 .current-page {
     background-color: burlywood;
-    height:99.5vh;
+    height:106vh;
     width: 100%;
 }
 
@@ -229,3 +229,10 @@ footer {
     margin: 0 auto;
 }
 
+.number{
+    display: inline-block;
+    text-align: center;
+}
+.footertext{
+    text-align: center;
+}

@@ -2682,7 +2682,8 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #ffffff !important;
+					color: white !important;
+					font-weight: bold;
 				}
 
 				.tiles article > a h2 {
@@ -3327,3 +3328,12 @@ input, select, textarea {
 			}
 
 		}
+
+/*footer*/
+.number{
+    display: inline-block;
+    text-align: center;
+}
+.footertext{
+    text-align: center;
+}
